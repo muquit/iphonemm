@@ -5,11 +5,11 @@
 
 <!-- /TOC -->
 # History
-Mastermind game for iPhone. I wrote it when the first iPhone was released in 2007. The original page can be found in google code archive: https://code.google.com/archive/p/iphonemm/. The page is here for historical reasons only.
+Mastermind game for iPhone. I wrote it when the first iPhone was released in 2007. The original page can be found in [google code archive](https://code.google.com/archive/p/iphonemm/). The page is here for historical reasons only. 
 
-Mastermind game for iPhone. It should work with any web browsers with JavaScript on. But I wrote it mainly for iPhone, so I'll use the word iPhone instead of browser.
+It should work with any web browsers with JavaScript on. But I wrote it mainly for iPhone, so I'll use the word iPhone instead of browser.
 
-The game is written using Google Web Toolkit (GWT).
+The game was written using[ Google Web Toolkit (GWT)](http://www.gwtproject.org) v1.4.10.
 
 To play, point your iPhone to [http://muquit.com/iphonemm/](http://muquit.com/iphonemm/)
 
