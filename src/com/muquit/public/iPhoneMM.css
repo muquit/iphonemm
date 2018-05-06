@@ -1,0 +1,42 @@
+body { 
+	color: black;
+	margin: 5px;
+	font-family: Arial, sans-serif;
+	font-size: small;
+	background: #d8d8d8 url(pinstripes.png);
+}
+
+.colored-Balls {
+    borderColor: #ff0000;
+}
+
+a:active {	
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {	
+    text-decoration: none;
+    color: blue;
+}
+
+.gwt-DialogBox {
+     padding-Top: 1px;
+     padding-Right: 1px;
+     padding-Bottom: 2px;
+     padding-left: 1px;
+     border-Width: 2px;
+     border-Color: black;
+     border-Style: solid;
+     background-Color: #eeeeee;
+}
+
+.gwt-DialogBox .Caption {
+    background-color: #0000dd;
+    color: #ffffff;
+	padding: 1px;
+	padding-bottom: 1px;
+	font-weight: bold;
+	cursor: default;
+}
+

@@ -1,0 +1,1 @@
+@java -cp "%~dp0\src;%~dp0\bin;H:/JavaCommon/gwt-windows-1.4.10/gwt-user.jar;H:/JavaCommon/gwt-windows-1.4.10/gwt-dev-windows.jar" com.google.gwt.dev.GWTShell -out "%~dp0\www" %* com.muquit.iPhoneMM/iPhoneMM.html

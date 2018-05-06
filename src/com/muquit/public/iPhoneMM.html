@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>MasterMind for iPhone</title>
+
+		<!-- set the width to more than 320 in order to remove URL bar from JavaScript -->
+        <meta name="viewport" content="width=370; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />       
+		<link type="text/css" rel='stylesheet' href='iPhoneMM.css'/>
+		
+<!-- Thanks to Joe Hewitt for the following script -->		
+<!-- It removes the big toolbar at the top -->
+<!-- Ref: http://www.joehewitt.com/blog/iphone_tips_loo.php -->
+<!-- muquit@muquit.com Aug-05-2007 -->
+
+<script type="application/x-javascript">
+    addEventListener("load", function()
+    {
+        setTimeout(updateLayout, 0);
+    }, false);
+
+    var currentWidth = 0;
+    
+    function updateLayout()
+    {
+        if (window.innerWidth != currentWidth)
+        {
+            currentWidth = window.innerWidth;
+
+            var orient = currentWidth == 320 ? "profile" : "landscape";
+            document.body.setAttribute("orient", orient);
+            setTimeout(function()
+            {
+                window.scrollTo(0, 1);
+            }, 100);            
+        }
+    }
+
+    setInterval(updateLayout, 400);
+</script>
+	
+	</head>
+
+	<body>
+
+		<!-- OPTIONAL: include this if you want history support -->
+		<iframe src="javascript:''" id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+		<script language='javascript' src='com.muquit.iPhoneMM.nocache.js'></script>
+	</body>
+</html>
