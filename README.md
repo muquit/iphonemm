@@ -5,7 +5,7 @@
 
 <!-- /TOC -->
 # History
-Mastermind game for iPhone. I wrote it when the first iPhone was released in 2007. The original page can be found in: [https://code.google.com/archive/p/iphonemm/](google code archive). The page is here for historical reasons only.
+Mastermind game for iPhone. I wrote it when the first iPhone was released in 2007. The original page can be found in google code archive: https://code.google.com/archive/p/iphonemm/. The page is here for historical reasons only.
 
 Mastermind game for iPhone. It should work with any web browsers with JavaScript on. But I wrote it mainly for iPhone, so I'll use the word iPhone instead of browser.
 
